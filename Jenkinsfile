@@ -2,9 +2,9 @@ node{
 
 		// defining variable for maven home directory
 		def mavenHome = tool name: "maven 3.8.4"
-		echo "The node name is ${env.NODE_NAME}
-		echo "The Job name is ${env.JOB_NAME}
-		echo "The Build number is ${env.BUILD_NUMBER}
+		echo "The node name is ${env.NODE_NAME}"
+		echo "The Job name is ${env.JOB_NAME}"
+		echo "The Build number is ${env.BUILD_NUMBER}"
 	
 		// Getting code from Git
 		stage('CheckoutCode'){
